@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1523422512 source:e:\tugas beneran\softcopy\tubesreal\imp.cpp
+	"head.h"
+
+1523421906 e:\tugas beneran\softcopy\tubesreal\head.h
+	<iostream>
+	<stdlib.h>
+
+1523422380 source:e:\tugas beneran\softcopy\tubesreal\main.cpp
+	<iostream>
+	<cstdlib>
+	"head.h"
+
