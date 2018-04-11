@@ -6,8 +6,9 @@
 	<iostream>
 	<stdlib.h>
 
-1523422380 source:e:\tugas beneran\softcopy\tubesreal\main.cpp
+1523422946 source:e:\tugas beneran\softcopy\tubesreal\main.cpp
 	<iostream>
 	<cstdlib>
+	<conio.h>
 	"head.h"
 

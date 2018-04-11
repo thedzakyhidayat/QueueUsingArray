@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <conio.h>
 #include "head.h"
 
 using namespace std;
@@ -27,6 +28,8 @@ int main()
         printInfo(Q);
         cout<<"Isi "<<CountElmQueue(Q);
     }
+
+    getch();
     main();
     return 0;
 }

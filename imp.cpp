@@ -22,22 +22,25 @@ bool isFull(Queue &Q){
 }
 
 void enqueue(Queue &Q, int n ){
-    if (isFull(Q) == false){
+    if(isFull(Q) == false){
         Q.tail++;
         Q.info[Q.tail] = n;
-    }else if (isFull(Q) == true){
-        cout<<"Queue penuh!!"<<endl;
-    }else if (isEmpty(Q) == true){
+    }else if(isFull(Q) == true){
+        cout<<"Penuh"<<endl;
+    }else if(isEmpty(Q) == true){
         Q.head = 0;
         Q.tail = 0;
         Q.info[Q.tail] = n;
+    /*}else if(isFull(Q.info[4]) == true){
+        cout<<"Penuh"<<endl;
+    }*/
     }
 }
 
 int dequeue(Queue &Q){
     int check;
     if(isEmpty(Q) == true){
-        cout<<"Queue kosong!!"<<endl;
+        cout<<"Kosong"<<endl;
         return 0;
     }else if(Q.head == 0 && Q.tail == 0){
         check = Q.info[Q.head];
